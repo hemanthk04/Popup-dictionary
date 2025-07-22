@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 16;
+  background-color: #fafaf6;
+  width: 320px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+.card {
+  background: white;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.word {
+  font-size: 24px;
+  font-weight: 600;
+  color: #291300;
+  margin-bottom: 10px;
+}
+
+.meaning {
+  font-size: 18px;
+  color: #291300;
+  line-height: 1.2;
+}
+
+.word, .meaning {
+  padding-left: 8px; /* or any value you like, e.g., 12px */
+}
